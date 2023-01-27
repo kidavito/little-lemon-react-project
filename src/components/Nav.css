@@ -1,0 +1,23 @@
+nav ul {
+    list-style: none;
+    font-weight: 600;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 5px 10px 5px 10px;
+}
+
+nav ul .nav-link {
+    color: black;
+    text-decoration: none;
+}
+
+nav ul .nav-link:active {
+    text-decoration: underline;
+}
+
+nav ul .nav-link:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 0.1rem;
+}

@@ -1,0 +1,173 @@
+#hero {
+    background-color: #495E57;
+    max-height: 340px;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-container {
+    display: flex;
+    width: 1600px;
+    gap: 200px;
+    justify-content: center;
+}
+
+.hero-text-container {
+    width: 300px;
+    margin-top: 0px;
+}
+
+.hero-title {
+    font-size: 3em;
+    color: gold;
+    margin-top: 70px;
+}
+
+.hero-title, .hero-locale {
+    line-height: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.hero-locale {
+    margin-bottom: 36px;
+    margin-top: -10px;
+}
+
+.hero-locale,
+.hero-description {
+    color: white;
+}
+
+.hero-description {
+    margin-bottom: 25px;
+}
+
+.hero-button {
+    background-color: gold;
+    border: none;
+    padding: 15px 30px 15px 30px;
+    border-radius: 12px;
+    font-weight: bolder;
+    font-size: 1.1em;
+}
+
+.hero-button:hover {
+    box-shadow: 0px 0px 10px gold;
+}
+
+.hero-button:active {
+    scale: 0.95;
+}
+
+.hero-image {
+    margin-top: 20px;
+    border-radius: 20px;
+    width: 360px;
+    height: 380px;
+    object-fit: cover;
+}
+
+/* PROMO SECTION */
+
+#promo {
+    display: flex;
+    gap: 27%;
+    justify-content: center;
+    align-items: center;
+    max-width: 960px;
+    margin: 80px auto auto auto;
+}
+
+.promo-title {
+    font-size: 3em;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.promo-button {
+    background-color: gold;
+    color: black;
+    border: none;
+    padding: 15px 30px 15px 30px;
+    border-radius: 12px;
+    font-weight: bolder;
+    font-size: 1.1em;
+    text-decoration: none;
+}
+
+.promo-button:hover {
+    box-shadow: 0px 0px 3px;
+}
+
+.promo-button:active {
+    scale: 0.95;
+}
+
+/* CARD SECTION */
+
+#cards {
+    display: flex;
+    justify-content: center;
+    margin: 15px auto auto auto;
+    padding-bottom: 15px;
+}
+
+.card-container {
+    display: grid;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    margin: 0px 15px 15px 15px;
+    width: 260px;
+}
+
+#card-one:hover,
+#card-two:hover,
+#card-three:hover {
+    scale: 1.02;
+    box-shadow: 0px 0px 2px;
+}
+
+.card-image {
+    border-radius: 20px 20px 0 0;
+    width: 260px;
+    height: 220px;
+    object-fit: cover;
+}
+
+.card-top {
+    display: flex;
+    align-items: center;
+    padding: 10px 30px 0px 30px;
+}
+
+.card-title {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.card-price {
+    color: chocolate;
+    font-weight: bold;
+    margin-left: auto;
+}
+
+.card-middle {
+    height: 180px;
+}
+
+.card-middle, .card-bottom {
+    padding: 0px 30px 0px 30px;
+}
+
+.card-bottom {
+    padding-bottom: 30px;
+}
+
+.order-link {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.order-link:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 0.1rem;
+}

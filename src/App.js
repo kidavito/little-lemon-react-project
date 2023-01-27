@@ -5,15 +5,15 @@ import Nav from './components/Nav';
 import Main from './components/Main';
 import Footer from './components/Footer';
 
-function App() {
+export default function App() {
   return (
-    <React.Fragment>
-      <Header />
-      <Nav />
+    <>
+      <div className="page-top">
+        <Header />
+        <Nav />
+      </div>
       <Main />
       <Footer />
-    </React.Fragment>
-  );
+    </>
+  )
 }
-
-export default App;

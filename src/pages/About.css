@@ -1,0 +1,21 @@
+.about-main-container {
+    display: flex;
+    justify-content: center;
+}
+
+.about-text-container {
+    max-width: 450px;
+    margin: 0px 0px 40px 0px;
+}
+
+.about-text-container > h1 {
+    font-size: 3em;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 0;
+}
+
+.about-image {
+    width: auto;
+    max-height: 200px;
+    margin-top: 10px;
+}
