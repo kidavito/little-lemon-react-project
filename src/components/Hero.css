@@ -17,28 +17,29 @@
     margin-top: 0px;
 }
 
-.hero-title {
+.hero-text-container > h1 {
     font-size: 3em;
     color: gold;
     margin-top: 70px;
 }
 
-.hero-title, .hero-locale {
+.hero-text-container > h1,
+.hero-text-container > h2 {
     line-height: 0;
     font-family: 'Times New Roman', Times, serif;
 }
 
-.hero-locale {
+.hero-text-container > h2 {
     margin-bottom: 36px;
     margin-top: -10px;
 }
 
-.hero-locale,
-.hero-description {
+.hero-text-container > h2,
+.hero-text-container > p {
     color: white;
 }
 
-.hero-description {
+.hero-text-container > p {
     margin-bottom: 25px;
 }
 
