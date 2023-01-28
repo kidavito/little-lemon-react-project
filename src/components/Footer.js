@@ -5,14 +5,16 @@ import { Link } from "react-router-dom";
 
 export default function Footer() {
     return (
-        <footer className='footer-container'>
-            <ThemeManager />
-            <article>
-                <Link to="/">
-                    <img src={footer_logo} height={50} alt="Little Lemon Footer Logo" />
-                </Link>
-                <p>Copyright &copy; 2023 Little Lemon | Coded by <a href="https://github.com/kidavito" target="blank" id="coder">kidavito</a>.</p>
-            </article>
+        <footer >
+            <section className='footer-container'>
+                <ThemeManager />
+                <article>
+                    <Link to="/">
+                        <img src={footer_logo} height={50} alt="Little Lemon Footer Logo" />
+                    </Link>
+                    <p>Copyright &copy; 2023 Little Lemon | Coded by <a href="https://github.com/kidavito" target="blank" id="coder">kidavito</a>.</p>
+                </article>
+            </section>
         </footer>
     )
 }

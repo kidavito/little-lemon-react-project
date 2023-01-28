@@ -4,17 +4,17 @@ import greek_salad from '../assets/img/greek_salad.jpg';
 import bruschetta from '../assets/img/bruschetta.jpg';
 import lemon_dessert from '../assets/img/lemon_dessert.jpg';
 
-export default function Cards() {
+export default function Cards(props) {
     return (
         <section id="cards">
             <article className="card-container" id="card-one">
                 <img src={greek_salad} className="card-image" alt="greek-salad" />
                 <div className="card-top">
-                    <h3>Greek Salad</h3>
-                    <p>$12.99</p>
+                    <h3>{props.firstCardTitle}</h3>
+                    <p>{props.firstCardPrice}</p>
                 </div>
                 <div className="card-middle">
-                    <p>The famous greek salad of crispy lettuce, peppers, olives and our Chicago style feta cheese, garnished with crunchy garlic and rosemary croutons.</p>
+                    <p>{props.firstCardDescription}</p>
                 </div>
                 <div className="card-bottom">
                     <Link to="/order-online" className="order-link">
@@ -25,11 +25,11 @@ export default function Cards() {
             <article className="card-container" id="card-two">
                 <img src={bruschetta} className="card-image" alt="bruschetta" />
                 <div className="card-top">
-                    <h3>Bruschetta</h3>
-                    <p>$ 5.99</p>
+                    <h3>{props.secondCardTitle}</h3>
+                    <p>{props.secondCardPrice}</p>
                 </div>
                 <div className="card-middle">
-                    <p>Our Bruschetta is made from grilled bread that has been smeared with garlic and seasoned with salt and olive oil.</p>
+                    <p>{props.secondCardDescription}</p>
                 </div>
                 <div className="card-bottom">
                     <Link to="/order-online" className="order-link">
@@ -40,11 +40,11 @@ export default function Cards() {
             <article className="card-container" id="card-three">
                 <img src={lemon_dessert} className="card-image" alt="lemon-dessert" />
                 <div className="card-top">
-                    <h3>Lemon Dessert</h3>
-                    <p>$ 5.00</p>
+                    <h3>{props.thirdCardTitle}</h3>
+                    <p>{props.thirdCardPrice}</p>
                 </div>
                 <div className="card-middle">
-                    <p>This comes straight from grandma's recipe book, every last ingredient has been sourced and is as authentic as can be imagined</p>
+                    <p>{props.thirdCardDescription}</p>
                 </div>
                 <div className="card-bottom">
                     <Link to="/order-online" className="order-link">
