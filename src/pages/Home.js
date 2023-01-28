@@ -13,7 +13,11 @@ export default function Home() {
                 heroButtonLink="/reservations"
                 heroButtonText="Reserve a Table"
             />
-            <Promo />
+            <Promo
+                promoTitle="This weeks specials!"
+                promoButtonLink="/order-online"
+                promoButtonText="Online Menu"
+            />
             <Cards />
         </>
     )
