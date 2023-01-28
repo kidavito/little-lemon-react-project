@@ -10,8 +10,8 @@ export default function Cards() {
             <article className="card-container" id="card-one">
                 <img src={greek_salad} className="card-image" alt="greek-salad" />
                 <div className="card-top">
-                    <h3 className="card-title">Greek Salad</h3>
-                    <p className="card-price">$12.99</p>
+                    <h3>Greek Salad</h3>
+                    <p>$12.99</p>
                 </div>
                 <div className="card-middle">
                     <p>The famous greek salad of crispy lettuce, peppers, olives and our Chicago style feta cheese, garnished with crunchy garlic and rosemary croutons.</p>
@@ -25,8 +25,8 @@ export default function Cards() {
             <article className="card-container" id="card-two">
                 <img src={bruschetta} className="card-image" alt="bruschetta" />
                 <div className="card-top">
-                    <h3 className="card-title">Bruschetta</h3>
-                    <p className="card-price">$ 5.99</p>
+                    <h3>Bruschetta</h3>
+                    <p>$ 5.99</p>
                 </div>
                 <div className="card-middle">
                     <p>Our Bruschetta is made from grilled bread that has been smeared with garlic and seasoned with salt and olive oil.</p>
@@ -40,8 +40,8 @@ export default function Cards() {
             <article className="card-container" id="card-three">
                 <img src={lemon_dessert} className="card-image" alt="lemon-dessert" />
                 <div className="card-top">
-                    <h3 className="card-title">Lemon Dessert</h3>
-                    <p className="card-price">$ 5.00</p>
+                    <h3>Lemon Dessert</h3>
+                    <p>$ 5.00</p>
                 </div>
                 <div className="card-middle">
                     <p>This comes straight from grandma's recipe book, every last ingredient has been sourced and is as authentic as can be imagined</p>
