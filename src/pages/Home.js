@@ -1,5 +1,6 @@
 import './Home.css';
 import Hero from '../components/Hero';
+import Promo from '../components/Promo';
 import { Link } from "react-router-dom";
 import greek_salad from '../assets/img/greek_salad.jpg';
 import bruschetta from '../assets/img/bruschetta.jpg';
@@ -9,12 +10,7 @@ export default function Home() {
     return (
         <>
             <Hero />
-            <section id="promo">
-                <h2 className="promo-title">This weeks specials!</h2>
-                <Link to="/order-online">
-                    <button className="promo-button">Online Menu</button>
-                </Link>
-            </section>
+            <Promo />
             <section id="cards">
                 <article className="card-container" id="card-one">
                         <img src={greek_salad} className="card-image" alt="greek-salad" />
