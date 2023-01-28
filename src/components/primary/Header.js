@@ -1,4 +1,4 @@
-import header_logo from '../assets/img/little_lemon_logo.png';
+import header_logo from '../../assets/img/little_lemon_logo.png';
 import { Link } from "react-router-dom";
 
 export default function Header() {

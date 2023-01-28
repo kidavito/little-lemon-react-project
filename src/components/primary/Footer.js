@@ -1,6 +1,6 @@
 import './Footer.css';
-import ThemeManager from './ThemeManager';
-import footer_logo from '../assets/img/little_lemon_logo.png';
+import ThemeManager from '../ThemeManager';
+import footer_logo from '../../assets/img/little_lemon_logo.png';
 import { Link } from "react-router-dom";
 
 export default function Footer() {
