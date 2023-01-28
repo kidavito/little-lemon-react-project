@@ -6,7 +6,13 @@ import Cards from '../components/Cards';
 export default function Home() {
     return (
         <>
-            <Hero />
+            <Hero
+                heroTitle="Little Lemon"
+                heroLocation="Chicago"
+                heroDescription="We are a family owned Mediterranean restaurant, focused on traditional recipes served with a modern twist."
+                heroButtonLink="/reservations"
+                heroButtonText="Reserve a Table"
+            />
             <Promo />
             <Cards />
         </>
