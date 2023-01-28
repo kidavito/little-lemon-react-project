@@ -1,11 +1,13 @@
-import './Footer.css'
+import './Footer.css';
+import ThemeToggler from './ThemeToggler';
 import footer_logo from '../assets/img/little_lemon_logo.png';
 import { Link } from "react-router-dom";
 
 export default function Footer() {
     return (
-        <footer>
-            <article className='footer-container'>
+        <footer className='footer-container'>
+            <ThemeToggler />
+            <article>
                 <Link to="/">
                     <img src={footer_logo} height={50} alt="Little Lemon Footer Logo" />
                 </Link>
