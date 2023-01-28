@@ -1,5 +1,5 @@
 import "./Hero.css";
-import { Link } from "react-router-dom";
+import ButtonGoldGlow from "./ButtonGoldGlow";
 import hero_image from '../assets/img/hero_image.jpg';
 
 export default function Hero() {
@@ -10,9 +10,7 @@ export default function Hero() {
                     <h1 className="hero-title">Little Lemon</h1>
                     <h2 className="hero-locale">Chicago</h2>
                     <p className="hero-description">We are a family owned Mediterranean restaurant, focused on traditional recipes served with a modern twist.</p>
-                    <Link to="/reservations">
-                        <button className="hero-button">Reserve a Table</button>
-                    </Link>
+                    <ButtonGoldGlow link="/reservations" text="Reserve a Table" />
                 </div>
                 <img src={hero_image} className="hero-image" alt="hero" />
             </article>
