@@ -1,6 +1,6 @@
 import './Home.css';
+import Hero from '../components/Hero';
 import { Link } from "react-router-dom";
-import hero_image from '../assets/img/hero_image.jpg';
 import greek_salad from '../assets/img/greek_salad.jpg';
 import bruschetta from '../assets/img/bruschetta.jpg';
 import lemon_dessert from '../assets/img/lemon_dessert.jpg';
@@ -8,19 +8,7 @@ import lemon_dessert from '../assets/img/lemon_dessert.jpg';
 export default function Home() {
     return (
         <>
-            <section id="hero">
-                <article className="hero-container">
-                    <div className="hero-text-container">
-                        <h1 className="hero-title">Little Lemon</h1>
-                        <h2 className="hero-locale">Chicago</h2>
-                        <p className="hero-description">We are a family owned Mediterranean restaurant, focused on traditional recipes served with a modern twist.</p>
-                        <Link to="/reservations">
-                            <button className="hero-button">Reserve a Table</button>
-                        </Link>
-                    </div>
-                    <img src={hero_image} className="hero-image" alt="hero" />
-                </article>
-            </section>
+            <Hero />
             <section id="promo">
                 <h2 className="promo-title">This weeks specials!</h2>
                 <Link to="/order-online">
