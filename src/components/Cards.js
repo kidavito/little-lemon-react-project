@@ -1,8 +1,8 @@
 import "./Cards.css";
-import { Link } from "react-router-dom";
 import greek_salad from '../assets/img/greek_salad.jpg';
 import bruschetta from '../assets/img/bruschetta.jpg';
 import lemon_dessert from '../assets/img/lemon_dessert.jpg';
+import LinkOrderOnline from "./LinkOrderOnline";
 
 export default function Cards(props) {
     return (
@@ -17,9 +17,7 @@ export default function Cards(props) {
                     <p>{props.firstCardDescription}</p>
                 </div>
                 <div className="card-bottom">
-                    <Link to="/order-online" className="order-link">
-                        <p>Order a delivery <i className="fa-solid fa-truck-fast" /></p>
-                    </Link>
+                    <LinkOrderOnline />
                 </div>
             </article>
             <article className="card-container" id="card-two">
@@ -32,9 +30,7 @@ export default function Cards(props) {
                     <p>{props.secondCardDescription}</p>
                 </div>
                 <div className="card-bottom">
-                    <Link to="/order-online" className="order-link">
-                        <p>Order a delivery <i className="fa-solid fa-truck-fast" /></p>
-                    </Link>
+                    <LinkOrderOnline />
                 </div>
             </article>
             <article className="card-container" id="card-three">
@@ -47,9 +43,7 @@ export default function Cards(props) {
                     <p>{props.thirdCardDescription}</p>
                 </div>
                 <div className="card-bottom">
-                    <Link to="/order-online" className="order-link">
-                        <p>Order a delivery <i className="fa-solid fa-truck-fast" /></p>
-                    </Link>
+                    <LinkOrderOnline />
                 </div>
             </article>
         </section>

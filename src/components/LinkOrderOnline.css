@@ -1,0 +1,10 @@
+.link-order-online {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.link-order-online:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 0.1rem;
+}
