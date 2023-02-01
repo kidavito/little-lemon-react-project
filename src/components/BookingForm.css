@@ -1,0 +1,35 @@
+form {
+    display: grid;
+    gap: 10px;
+    justify-content: center;
+}
+
+input[type=text],
+input[type=email],
+input[type=date],
+input[type=number],
+select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    min-width: 300px;
+}
+
+input[type=submit] {
+    padding: 12px 20px;
+    background-color: gold;
+    border: none;
+    border-radius: 12px;
+}
+
+/* input[type=submit]:hover {
+    box-shadow: 0px 0px 10px gold;
+} */
+
+input[type=submit]:active {
+    scale: 0.95;
+}
