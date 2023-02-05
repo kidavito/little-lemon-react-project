@@ -1,4 +1,18 @@
-form {
+.form-container {
+    background-color: whitesmoke;
+    border-radius: 20px;
+    padding: 15px 25px 30px 25px;
+    margin: 20px;
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form-heading {
+    padding-bottom: 10px;
+}
+
+.form-heading, form {
     display: grid;
     gap: 10px;
     justify-content: center;

@@ -1,7 +1,10 @@
 export default function Login() {
+    const css = {
+        textAlign: "center",
+    }
     return (
         <>
-            <h1>This is "Login" page.</h1>
+            <h1 style={css}>This "Login" page is under construction.</h1>
         </>
     )
 }

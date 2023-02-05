@@ -47,64 +47,69 @@ export default function BookingForm() {
     }
 
     return (
-        <form onSubmit={handleSubmit}>
-            <label htmlFor="res-name">Name</label>
-            <input
-                type="text"
-                id="red-name"
-                value={name}
-                placeholder="Enter your name"
-                onChange={(x) => setName(x.target.value)}
-            />
-            <label htmlFor='res-email'>Email</label>
-            <input
-                type="email"
-                value={email}
-                placeholder="Enter your email address"
-                onChange={(x) => setEmail(x.target.value)}
-            />
-            <label htmlFor="res-date">Choose date</label>
-            <input
-                type="date"
-                id="res-date"
-                value={date}
-                onChange={(x) => setDate(x.target.value)}
-            />
-            <label htmlFor="res-time">Choose time</label>
-            <select
-                id="res-time"
-                value={time}
-                onChange={(x) => setTime(x.target.value)}
-            >
-                {availableTimes.map((hour, index) => (
-                    <option key={index}>{hour}</option>
-                ))}
-            </select>
-            <label htmlFor="guests">Number of guests</label>
-            <input
-                type="number"
-                placeholder="Enter a number"
-                min="1"
-                max="10"
-                id="guests"
-                value={number}
-                onChange={(x) => setNumber(x.target.value)}
-            />
-            <label htmlFor="occasion">Occasion</label>
-            <select
-                id="occasion"
-                value={occasion}
-                onChange={(x) => setOccasion(x.target.value)}
-            >
-                {occasionType.map((type, index) => (
-                    <option key={index}>{type}</option>
-                ))}
-            </select>
-            <input
-                disabled={!isFormValid()}
-                type="submit"
-                value="Make Your reservation"
-            />
-        </form>
+        <div className='form-container'>
+            <h1 className='form-heading'>Book Now</h1>
+            <form onSubmit={handleSubmit}>
+                <label htmlFor="res-name">Name</label>
+                <input
+                    type="text"
+                    id="red-name"
+                    value={name}
+                    placeholder="Enter your name"
+                    onChange={(x) => setName(x.target.value)}
+                />
+                <label htmlFor='res-email'>Email</label>
+                <input
+                    type="email"
+                    value={email}
+                    placeholder="Enter your email address"
+                    onChange={(x) => setEmail(x.target.value)}
+                    // aria-describedby="Email-error"
+                />
+                <label htmlFor="res-date">Choose date</label>
+                <input
+                    type="date"
+                    id="res-date"
+                    value={date}
+                    onChange={(x) => setDate(x.target.value)}
+                />
+                <label htmlFor="res-time">Choose time</label>
+                <select
+                    id="res-time"
+                    value={time}
+                    onChange={(x) => setTime(x.target.value)}
+                >
+                    {availableTimes.map((hour, index) => (
+                        <option key={index}>{hour}</option>
+                    ))}
+                </select>
+                <label htmlFor="guests">Number of guests</label>
+                <input
+                    type="number"
+                    placeholder="Enter a number"
+                    min="1"
+                    max="10"
+                    id="guests"
+                    value={number}
+                    onChange={(x) => setNumber(x.target.value)}
+                />
+                <label htmlFor="occasion">Occasion</label>
+                <select
+                    id="occasion"
+                    value={occasion}
+                    onChange={(x) => setOccasion(x.target.value)}
+                >
+                    {occasionType.map((type, index) => (
+                        <option key={index}>{type}</option>
+                    ))}
+                </select>
+                <input
+                    disabled={!isFormValid()}
+                    type="submit"
+                    value="Make Your Reservation"
+                    aria-label="On Click"
+                />
+            </form>
+        </div>
     )
 }
