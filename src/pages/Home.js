@@ -15,7 +15,7 @@ export default function Home() {
             />
             <Promo
                 promoTitle="This weeks specials!"
-                promoButtonLink="/order-online"
+                promoButtonLink="/menu"
                 promoButtonText="Online Menu"
             />
             <Cards

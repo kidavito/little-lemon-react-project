@@ -11,3 +11,12 @@
     font-size: 3em;
     font-family: 'Times New Roman', Times, serif;
 }
+
+@media screen and (max-width: 960px) {
+    #promo {
+        display: grid;
+        gap: 5%;
+        text-align: center;
+        margin: 100px auto 70px auto;
+    }
+}

@@ -1,6 +1,6 @@
 .page-top {
   display: flex;
-  gap: 140px;
+  gap: 150px;
   align-items: center;
   justify-content: center;
   background-color: white;
@@ -16,5 +16,11 @@
   }
   Header, Nav {
     text-align: center;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .page-top {
+    position: relative;
   }
 }

@@ -55,13 +55,21 @@
     padding: 0px 30px 30px 30px;
 }
 
-/* .order-link {
-    color: black;
-    font-weight: bold;
-    text-decoration: none;
-} */
-
-/* .order-link:hover {
-    text-decoration: underline;
-    text-decoration-thickness: 0.1rem;
-} */
+@media screen and (max-width: 960px) {
+    #cards {
+        display: grid;
+        justify-items: center;
+    }
+    .card-container {
+        width: 80%;
+    }
+    .card-image {
+        width: 100%;
+    }
+    .card-middle {
+        height: auto;
+    }
+    .card-bottom {
+        text-align: center;
+    }
+}
