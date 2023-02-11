@@ -19,3 +19,30 @@
     max-height: 200px;
     margin-top: 10px;
 }
+
+@media screen and (max-width: 960px) {
+    .about-main-container {
+        display: grid;
+        justify-items: center;
+        margin: auto 10% auto 10%;
+    }
+    .about-text-container > h1 {
+        text-align: center;
+    }
+    .about-image {
+        max-height: 100%;
+        max-width: 450px;
+    }
+    .about-image > figcaption {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .about-text-container > h1 {
+        line-height: 1em;
+    }
+    .about-image {
+        max-width: 100%;
+    }
+  }
