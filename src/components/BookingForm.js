@@ -42,7 +42,13 @@ export default function BookingForm() {
         setTime("")
         setNumber("")
         setOccasion("")
-        console.log("Submitted!")
+        console.log("Form Submitted!")
+        console.log("Name: " + x.target[0].value)
+        console.log("Email: " + x.target[1].value)
+        console.log("Date: " + x.target[2].value)
+        console.log("Time: " + x.target[3].value)
+        console.log("Guests: " + x.target[4].value)
+        console.log("Occasion: " + x.target[5].value)
     }
 
     return (

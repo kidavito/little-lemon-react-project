@@ -3,8 +3,6 @@ export default function BookingList() {
         display: "grid",
         margin: "10px auto 30px auto",
         justifyContent: "center",
-        // backgroundColor: "gold",
-        // color: "white",
         borderRadius: "20px",
         padding: "15px 25px 30px 25px",
     }
