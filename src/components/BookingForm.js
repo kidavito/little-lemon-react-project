@@ -24,7 +24,6 @@ export default function BookingForm() {
     const isFormValid = () => {
         return (
             name &&
-            // email &&
             validateEmail(email) &&
             date &&
             time &&
@@ -64,7 +63,6 @@ export default function BookingForm() {
                     value={email}
                     placeholder="Enter your email address"
                     onChange={(x) => setEmail(x.target.value)}
-                    // aria-describedby="Email-error"
                 />
                 <label htmlFor="res-date">Choose date</label>
                 <input
