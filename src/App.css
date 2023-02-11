@@ -13,6 +13,7 @@
 @media screen and (max-width: 960px) {
   .page-top {
     display: block;
+    position: relative;
   }
   Header, Nav {
     text-align: center;

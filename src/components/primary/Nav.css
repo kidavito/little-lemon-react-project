@@ -23,7 +23,7 @@ nav ul .nav-link:hover {
     text-decoration-thickness: 0.1rem;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 540px) {
     nav ul li {
         display: block;
     }
