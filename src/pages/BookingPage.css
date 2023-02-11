@@ -1,0 +1,12 @@
+#booking-page {
+    display: grid;
+    grid-auto-flow: column;
+    justify-items: center;
+    margin: auto 10% auto 10%;
+}
+
+@media screen and (max-width: 960px) {
+    #booking-page {
+        grid-auto-flow: row;
+    }
+}
