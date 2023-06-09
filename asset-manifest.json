@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/little-lemon-react-project/static/css/main.f965da54.css",
+    "main.js": "/little-lemon-react-project/static/js/main.3d28c7ab.js",
+    "static/js/787.dab9b5eb.chunk.js": "/little-lemon-react-project/static/js/787.dab9b5eb.chunk.js",
+    "static/media/greek_salad.jpg": "/little-lemon-react-project/static/media/greek_salad.32e9ca8f656089939cd1.jpg",
+    "static/media/mario_and_adrian.jpg": "/little-lemon-react-project/static/media/mario_and_adrian.208e63312e5b950ca8a5.jpg",
+    "static/media/bruschetta.jpg": "/little-lemon-react-project/static/media/bruschetta.ed1d0d48d99dd3257ceb.jpg",
+    "static/media/hero_image.jpg": "/little-lemon-react-project/static/media/hero_image.90111224b69eeaddea49.jpg",
+    "static/media/lemon_dessert.jpg": "/little-lemon-react-project/static/media/lemon_dessert.a49e7beb167177220f67.jpg",
+    "static/media/little_lemon_logo.png": "/little-lemon-react-project/static/media/little_lemon_logo.d4cae6fac8384c2dae04.png",
+    "index.html": "/little-lemon-react-project/index.html",
+    "main.f965da54.css.map": "/little-lemon-react-project/static/css/main.f965da54.css.map",
+    "main.3d28c7ab.js.map": "/little-lemon-react-project/static/js/main.3d28c7ab.js.map",
+    "787.dab9b5eb.chunk.js.map": "/little-lemon-react-project/static/js/787.dab9b5eb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f965da54.css",
+    "static/js/main.3d28c7ab.js"
+  ]
+}
