@@ -11,13 +11,28 @@ export default function Main() {
   return (
     <main>
       <Routes>
-        <Route path="/" element={<Home />}></Route>
-        <Route path="/about" element={<About />}></Route>
-        <Route path="/menu" element={<Menu />}></Route>
-        <Route path="/reservations" element={<BookingPage />}></Route>
-        <Route path="/order-online" element={<OrderOnline />}></Route>
-        <Route path="/login" element={<Login />}></Route>
+        <Route path="/little-lemon-react-project" element={<Home />}></Route>
+        <Route
+          path="/little-lemon-react-project/about"
+          element={<About />}
+        ></Route>
+        <Route
+          path="/little-lemon-react-project/menu"
+          element={<Menu />}
+        ></Route>
+        <Route
+          path="/little-lemon-react-project/reservations"
+          element={<BookingPage />}
+        ></Route>
+        <Route
+          path="/little-lemon-react-project/order-online"
+          element={<OrderOnline />}
+        ></Route>
+        <Route
+          path="/little-lemon-react-project/login"
+          element={<Login />}
+        ></Route>
       </Routes>
     </main>
-  )
+  );
 }
