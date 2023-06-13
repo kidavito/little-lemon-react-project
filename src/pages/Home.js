@@ -8,13 +8,7 @@ import MENU_LIST from "../MenuList";
 export default function Home() {
   return (
     <>
-      <Hero
-        heroTitle="Little Lemon"
-        heroLocation="Chicago"
-        heroDescription="We are a family owned Mediterranean restaurant, focused on traditional recipes served with a modern twist."
-        heroButtonLink="/little-lemon-react-project/reservations"
-        heroButtonText="Reserve a Table"
-      />
+      <Hero />
       <Promo />
       <div id="cards">
         {MENU_LIST.map((menuList) => (
