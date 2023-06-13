@@ -15,11 +15,7 @@ export default function Home() {
         heroButtonLink="/little-lemon-react-project/reservations"
         heroButtonText="Reserve a Table"
       />
-      <Promo
-        promoTitle="This weeks specials!"
-        promoButtonLink="/little-lemon-react-project/menu"
-        promoButtonText="Online Menu"
-      />
+      <Promo />
       <div id="cards">
         {MENU_LIST.map((menuList) => (
           <MenuCard
