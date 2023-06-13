@@ -6,8 +6,8 @@ export default function MenuCard(props) {
     <section id="cards">
       <article className="card-container">
         <img
-          src={require(`../assets/img/${props.cardImage}`)}
           className="card-image"
+          src={require(`../assets/img/${props.cardImage}`)}
           alt={props.cardTitle}
         />
         <div className="card-top">
