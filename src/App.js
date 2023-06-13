@@ -10,7 +10,7 @@ import Footer from "./components/primary/Footer";
 export default function App() {
   return (
     <BrowserRouter>
-      <div className="page-top">
+      <div className="navbar-container">
         <Header />
         <Nav />
       </div>
