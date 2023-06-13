@@ -1,7 +1,7 @@
 import "./Promo.css";
 import ButtonGoldGlow from "./ButtonGoldGlow";
 
-export default function Promo(props) {
+export default function Promo() {
   return (
     <section id="promo">
       <h2>This weeks specials!</h2>
