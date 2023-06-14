@@ -1,3 +1,4 @@
+import React from "react";
 import "./Home.css";
 import Hero from "../components/Hero";
 import Promo from "../components/Promo";
@@ -7,7 +8,7 @@ import MENU_LIST from "../MenuList";
 
 export default function Home() {
   return (
-    <>
+    <React.Fragment>
       <Hero />
       <Promo />
       <div className="card">
@@ -21,6 +22,6 @@ export default function Home() {
           />
         ))}
       </div>
-    </>
+    </React.Fragment>
   );
 }
