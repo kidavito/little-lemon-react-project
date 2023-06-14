@@ -1,5 +1,5 @@
 import "./MenuCard.css";
-import LinkOrderOnline from "./LinkOrderOnline";
+import { Link } from "react-router-dom";
 
 export default function MenuCard(props) {
   return (
@@ -18,7 +18,11 @@ export default function MenuCard(props) {
           <p>{props.cardDescription}</p>
         </div>
         <div className="card-bottom">
-          <LinkOrderOnline />
+          <Link to={props.cardUrlPath} className="link-order-online">
+            <p>
+              Order a delivery <i className="fa-solid fa-truck-fast" />
+            </p>
+          </Link>
         </div>
       </article>
     </section>
