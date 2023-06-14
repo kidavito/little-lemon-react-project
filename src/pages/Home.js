@@ -19,6 +19,7 @@ export default function Home() {
             cardTitle={menuList.title}
             cardPrice={menuList.price}
             cardDescription={menuList.description}
+            cardUrlPath={menuList.urlPath}
           />
         ))}
       </div>
