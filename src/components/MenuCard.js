@@ -3,7 +3,7 @@ import LinkOrderOnline from "./LinkOrderOnline";
 
 export default function MenuCard(props) {
   return (
-    <section id="cards">
+    <section className="card">
       <article className="card-container">
         <img
           className="card-image"

@@ -10,7 +10,7 @@ export default function Home() {
     <>
       <Hero />
       <Promo />
-      <div id="cards">
+      <div className="card">
         {MENU_LIST.map((menuList) => (
           <MenuCard
             key={menuList.id}

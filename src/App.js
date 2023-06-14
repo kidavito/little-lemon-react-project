@@ -9,7 +9,7 @@ import Footer from "./components/primary/Footer";
 
 export default function App() {
   console.log(
-    `Coded by "Ki David Andianto", more at: https://github.com/kidavito`
+    "Coded by Ki David Andianto (kidavito), my GitHub profile: https://github.com/kidavito"
   );
   return (
     <BrowserRouter>
