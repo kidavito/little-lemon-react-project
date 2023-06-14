@@ -1,6 +1,6 @@
 # Little Lemon React Project
 
-This project was built by Ki David Andianto (kidavito) as a requirement to complete the Meta certification program to become a front-end developer. You can see the live demo [here](https://kidavito.github.io/little-lemon-react-project/).
+This project was built by Ki David Andianto (kidavito) as a requirement to complete the Meta Front-end Developer certification. You can see the live demo [here](https://kidavito.github.io/little-lemon-react-project/).
 
 ## Available Scripts
 
