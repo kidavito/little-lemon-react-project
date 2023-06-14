@@ -46,6 +46,17 @@
   padding: 0px 30px 30px 30px;
 }
 
+.link-order-online {
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.link-order-online:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 0.1rem;
+}
+
 @media screen and (max-width: 960px) {
   .card-container {
     width: 80%;
