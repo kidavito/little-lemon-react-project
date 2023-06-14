@@ -1,6 +1,6 @@
 # Little Lemon React Project
 
-This project was built by David for the Meta certification program.
+This project was built by Ki David Andianto (kidavito) for the Meta certification program.
 You can see the live demo [here](https://kidavito.github.io/little-lemon-react-project/).
 
 ## Available Scripts
