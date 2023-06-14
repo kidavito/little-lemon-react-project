@@ -1,72 +1,81 @@
 #hero {
-    background-color: #495E57;
-    max-height: 340px;
-    display: grid;
-    justify-content: center;
+  background-color: #495e57;
+  max-height: 340px;
+  display: grid;
+  justify-content: center;
 }
 
 .hero-container {
-    display: flex;
-    width: 1600px;
-    gap: 200px;
-    justify-content: center;
+  display: flex;
+  width: 1600px;
+  gap: 200px;
+  justify-content: center;
 }
 
 .hero-text-container {
-    width: 300px;
-    margin-top: 0px;
+  width: 300px;
+  margin-top: 0px;
 }
 
 .hero-text-container > h1 {
-    font-size: 3em;
-    color: gold;
-    margin-top: 70px;
+  font-size: 3em;
+  color: gold;
+  margin-top: 70px;
 }
 
 .hero-text-container > h1,
 .hero-text-container > h2 {
-    line-height: 0;
-    font-family: 'Times New Roman', Times, serif;
+  line-height: 0;
+  font-family: "Times New Roman", Times, serif;
 }
 
 .hero-text-container > h2 {
-    margin-bottom: 36px;
-    margin-top: -10px;
+  margin-bottom: 36px;
+  margin-top: -10px;
 }
 
 .hero-text-container > h2,
 .hero-text-container > p {
-    color: white;
+  color: white;
 }
 
 .hero-text-container > p {
-    margin-bottom: 25px;
+  margin-bottom: 25px;
 }
 
 .hero-image {
-    margin-top: 20px;
-    border-radius: 20px;
-    width: 360px;
-    height: 380px;
-    object-fit: cover;
+  margin-top: 20px;
+  border-radius: 20px;
+  width: 360px;
+  height: 380px;
+  object-fit: cover;
 }
 
 @media screen and (max-width: 960px) {
-    #hero {
-        max-height: 640px;
-    }
-    .hero-container {
-        justify-items: center;
-        text-align: center;
-        display: grid;
-        gap: 40px;
-        width: 100%;
-    }
-    .hero-text-container {
-        width: auto;
-        margin: auto 10% auto 10%;
-    }
-    .hero-image {
-        width: 80%;
-    }
+  #hero {
+    max-height: 640px;
+  }
+  .hero-container {
+    justify-items: center;
+    text-align: center;
+    display: grid;
+    gap: 40px;
+    width: 100%;
+  }
+  .hero-text-container {
+    width: auto;
+    margin: auto 10% auto 10%;
+  }
+  .hero-image {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .hero-text-container > h1 {
+    line-height: 60px;
+  }
+  #hero {
+    max-height: 800px;
+  }
 }
